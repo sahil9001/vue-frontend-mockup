@@ -8,7 +8,7 @@
       hover:text-textsecondary
       text-white
       font-bold
-      transform transition duration-500 hover:scale-110
+      transform transition duration-500 hover:-translate-y-6
     "
   >
     <div class="h-1/2 flex flex-col px-6 py-10">
