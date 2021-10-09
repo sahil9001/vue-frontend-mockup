@@ -1,7 +1,7 @@
 <template>
   <div class="mt-10">
-    <div class="grid grid-cols-4 gap-4">
-      <div v-for="stat in stats"  :key="stat.id" ><Card :stat="stat"/></div>
+    <div class="flex flex-wrap items-stretch">
+      <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/6 xl:w-1/4 mb-4" v-for="stat in stats"  :key="stat.id" ><Card :stat="stat"/></div>
     </div>
   </div>
 </template>

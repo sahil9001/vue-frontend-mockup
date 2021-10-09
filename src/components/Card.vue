@@ -3,8 +3,7 @@
     class="
       border border-white border-opacity-100
       rounded
-      pt-10
-      pb-20
+      mx-2
       hover:bg-secondary
       hover:text-textsecondary
       text-white
@@ -12,9 +11,9 @@
       transform transition duration-500 hover:scale-110
     "
   >
-    <div class="h-1/4 flex items-stretch flex-col px-6">
-      <div>
-        <div class="grid grid-cols-4 grid-col-flow h-full">
+    <div class="h-1/2 flex flex-col px-6 py-10">
+      <div class="flex-auto">
+        <div class="grid grid-cols-4 grid-col-flow">
           <div class="text-left"><i class="fa-solid fa-s"></i></div>
           <div></div>
           <div class="col-span-2 text-right font-light">{{ stat.date }}</div>
