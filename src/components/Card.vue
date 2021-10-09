@@ -9,11 +9,12 @@
       hover:text-textsecondary
       text-white
       font-bold
+      transform transition duration-500 hover:scale-110
     "
   >
-    <div class="h-1/4 flex flex-col px-6">
-      <div class="flex">
-        <div class="grid grid-cols-4">
+    <div class="h-1/4 flex items-stretch flex-col px-6">
+      <div>
+        <div class="grid grid-cols-4 grid-col-flow h-full">
           <div class="text-left"><i class="fa-solid fa-s"></i></div>
           <div></div>
           <div class="col-span-2 text-right font-light">{{ stat.date }}</div>
